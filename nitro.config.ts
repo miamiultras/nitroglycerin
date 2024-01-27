@@ -1,2 +1,5 @@
-//https://nitro.unjs.io/config
-export default defineNitroConfig({});
+export default defineNitroConfig({
+  runtimeConfig: {
+    apiToken: "dev_token", // `dev_token` is the default value
+  },
+});
