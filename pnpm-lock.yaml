@@ -9,7 +9,7 @@ dependencies:
     specifier: ^3.2.1
     version: 3.2.1(react-native@0.74.1)
   '@expo/vector-icons':
-    specifier: ^14.0.0
+    specifier: ^14.0.1
     version: 14.0.1
   '@react-navigation/native':
     specifier: ^6.0.2
