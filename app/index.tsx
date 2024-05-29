@@ -1,4 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
+import * as MediaLibrary from 'expo-media-library';
 import { ImageURISource, StyleSheet, View } from 'react-native';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 
@@ -19,7 +20,12 @@ export default function Index() {
   const [showAppOptions, setShowAppOptions] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [pickedEmoji, setPickedEmoji] = useState(null);
+  const [status, requestPermission] = MediaLibrary.usePermissions();
   
+  if (status === null) {
+    requestPermission();
+  }
+
   const pickImageAsync = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
       allowsEditing: true,
