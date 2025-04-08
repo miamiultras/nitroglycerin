@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@expo/metro-runtime": "^3.2.3",
-    "@expo/vector-icons": "^14.0.4",
+    "@expo/vector-icons": "^14.1.0",
     "@react-navigation/native": "^6.1.18",
     "dom-to-image": "^2.6.0",
     "expo": "~51.0.39",
