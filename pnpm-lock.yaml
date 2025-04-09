@@ -1281,8 +1281,8 @@ packages:
   '@react-navigation/routers@6.1.9':
     resolution: {integrity: sha512-lTM8gSFHSfkJvQkxacGM6VJtBt61ip2XO54aNfswD+KMw6eeZ4oehl7m0me3CR9hnDE4+60iAZR8sAhvCiI3NA==}
 
-  '@remix-run/node@2.16.4':
-    resolution: {integrity: sha512-scZwpc78cJS8dx6LMLemVHqnaAVbPWasx36TxYWUASA63hxPx5XbGbb6pe4cSpT8dWqhBtsPpHZoFTrM1aqx7A==}
+  '@remix-run/node@2.16.5':
+    resolution: {integrity: sha512-awunS1kgFmc8q7sGz7FpGf66RXQm2Vw0yk5IFTIJa0WdQrskqyF/6CO+tEf/0np/OCu2fQ23+EfxY2qGHm1aOg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       typescript: ^5.1.0
@@ -1294,8 +1294,8 @@ packages:
     resolution: {integrity: sha512-O3rHJzAQKamUz1fvE0Qaw0xSFqsA/yafi2iqeE0pvdFtCO1viYx8QL6f3Ln/aCCTLxs68SLf0KPM9eSeM8yBnA==}
     engines: {node: '>=14.0.0'}
 
-  '@remix-run/server-runtime@2.16.4':
-    resolution: {integrity: sha512-6M1Lq2mrH5zfGN++ay+a2KzdPqOh2TB7n6wYPPXA0rxQan8c5NZCvDFF635KS65LSzZDB+2VfFTgoPBERdYkYg==}
+  '@remix-run/server-runtime@2.16.5':
+    resolution: {integrity: sha512-LGGNEJoior2zvgtqyPC5tVPucAvewovQvL4ztC5yE8ZszHmLri9bB9YYWvHqsiT+EaunKHNLmI8jpJHe3PEKhA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       typescript: ^5.1.0
@@ -6216,7 +6216,7 @@ snapshots:
 
   '@expo/server@0.4.4(typescript@5.3.3)':
     dependencies:
-      '@remix-run/node': 2.16.4(typescript@5.3.3)
+      '@remix-run/node': 2.16.5(typescript@5.3.3)
       abort-controller: 3.0.0
       debug: 4.4.0
       source-map-support: 0.5.21
@@ -6941,9 +6941,9 @@ snapshots:
     dependencies:
       nanoid: 3.3.11
 
-  '@remix-run/node@2.16.4(typescript@5.3.3)':
+  '@remix-run/node@2.16.5(typescript@5.3.3)':
     dependencies:
-      '@remix-run/server-runtime': 2.16.4(typescript@5.3.3)
+      '@remix-run/server-runtime': 2.16.5(typescript@5.3.3)
       '@remix-run/web-fetch': 4.4.2
       '@web3-storage/multipart-parser': 1.0.0
       cookie-signature: 1.2.2
@@ -6955,7 +6955,7 @@ snapshots:
 
   '@remix-run/router@1.23.0': {}
 
-  '@remix-run/server-runtime@2.16.4(typescript@5.3.3)':
+  '@remix-run/server-runtime@2.16.5(typescript@5.3.3)':
     dependencies:
       '@remix-run/router': 1.23.0
       '@types/cookie': 0.6.0
